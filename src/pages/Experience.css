@@ -1,0 +1,44 @@
+ .conerr {
+     background-color: rgb(43, 43, 43);
+     height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     flex-direction: column;
+ }
+
+ .conerr h5 {
+     color: rgb(225, 223, 223);
+     font-size: 2.5rem;
+     margin: 0;
+
+ }
+
+ .conerr h3 {
+     color: rgb(225, 223, 223);
+     font-size: 2.5rem;
+     margin: 0;
+
+ }
+
+ .conerr ul {
+     text-align: left;
+     color: white;
+     margin-top: 20px;
+ }
+
+ .card-text {
+     width: 200px;
+     color: black;
+     font-size: 10px;
+     text-align: left;
+ }
+
+ .card {
+     margin-top: 20px;
+ }
+
+ .featur {
+     text-align: left;
+ }

@@ -1,0 +1,43 @@
+.cosne {
+  background-color: rgb(43, 43, 43);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.const p {
+  color: white;
+  width: 1000px;
+  text-align: left;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+
+}
+
+@media (min-width: 300px) and (max-width: 800px) {
+  .cosne {
+    background-color: rgb(43, 43, 43);
+    height: 190vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .const p {
+    margin-top: 50px;
+    color: white;
+    width: 300px;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    opacity: 0;
+    animation: fadeSlide 1.5s ease-in-out forwards;
+    animation-delay: 0.5s;
+  }
+}
+

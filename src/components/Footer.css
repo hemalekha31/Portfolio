@@ -1,0 +1,19 @@
+.foot {
+  background-color: white;
+  color: black;
+  display: flex;         
+  justify-content: center; 
+  gap: 30px;             
+  padding: 15px 0;       
+}
+
+.foot a {
+  text-decoration: none;
+  color: black;          
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.foot a:hover {
+  color: gray; 
+}

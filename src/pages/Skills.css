@@ -1,0 +1,14 @@
+.conts {
+  min-height: 100vh;
+  background-color: rgb(50, 49, 49);
+  padding: 40px 0;
+}
+
+.skillcontainer {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.progress-bar {
+  transition: width 1.5s ease-in-out;
+  border-radius: 20px; /* rounded bar edges */
+}
