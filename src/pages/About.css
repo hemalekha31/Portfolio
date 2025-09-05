@@ -17,7 +17,7 @@
 
 }
 
-@media (min-width: 300px) and (max-width: 800px) {
+@media  (max-width: 800px) {
   .cosne {
     background-color: rgb(43, 43, 43);
     height: 190vh;
