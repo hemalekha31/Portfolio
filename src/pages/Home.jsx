@@ -16,7 +16,7 @@ const Home = () => {
                 <h2 data-aos="fade-right">MERN STACK Learner</h2>
             </div>
             <div className='but'>
-                <Link to="/sh" data-aos="flip-right">
+                <Link to="/contact" data-aos="flip-right">
                     <button >Contact</button>
                 </Link>
                 <Link to="/projects" data-aos="flip-left">
