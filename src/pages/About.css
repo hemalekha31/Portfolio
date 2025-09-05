@@ -35,9 +35,6 @@
     text-align: left;
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
-    opacity: 0;
-    animation: fadeSlide 1.5s ease-in-out forwards;
-    animation-delay: 0.5s;
-  }
+     }
 }
 
