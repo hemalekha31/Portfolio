@@ -1,11 +1,11 @@
 /* About Section */
 .about-container {
   background-color: rgb(43, 43, 43);
-  min-height: 100vh; /* grows with content */
+  min-height: 100vh; /* flexible height */
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 40px 20px; /* breathing room */
+  padding: 40px 20px;
   text-align: center;
 }
 
@@ -27,7 +27,7 @@
 @media (max-width: 800px) {
   .about-container {
     padding: 30px 16px;
-    align-items: flex-start; /* content scrolls naturally */
+    align-items: flex-start; /* allow natural scrolling */
   }
 
   .about-content {
