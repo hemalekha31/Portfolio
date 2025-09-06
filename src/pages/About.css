@@ -1,10 +1,9 @@
-/* About Section */
 .about-container {
   background-color: rgb(43, 43, 43);
-  min-height: 100vh; /* flexible height */
+  min-height: 100vh; /* flexible */
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start; /* prevent hidden text on tall screens */
   padding: 40px 20px;
   text-align: center;
 }
@@ -23,15 +22,10 @@
   margin-bottom: 24px;
 }
 
-/* Responsive Styles */
-@media (min-width:400px) and (max-width: 800px) {
+/* Mobile styles */
+@media (max-width: 800px) {
   .about-container {
     padding: 30px 16px;
-    align-items: flex-start; /* allow natural scrolling */
-  }
-
-  .about-content {
-    max-width: 100%;
   }
 
   .about-content p {
